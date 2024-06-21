@@ -1,0 +1,119 @@
+/* Container Styles */
+*{
+    margin: 0px;
+}
+body{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #37475a;
+    /* background-color: #efd28d; */
+}
+
+
+#backgroundContainer {
+    /* background-image: url('https://images.unsplash.com/photo-1472145246862-b24cf25c4a36?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYXRoZXIlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D'); */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 654px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+   
+}
+
+/* Search Box Styles */
+.search {
+    width: 500px;
+    height: 45px;
+    background-color: #222f3d;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+.search-button {
+    width: 40px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    background-color: #222f3d;
+    border-radius: 20px;
+}
+
+
+
+/* .search p */
+.search-input {
+    background-color: #f5e2b8;
+    width: 100%;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+/* temprature style*/
+
+.description{
+    display: flex;
+    gap: 90px;
+    justify-content: space-between; 
+    align-items: center;
+    color: #fff;
+}
+.description img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+/* Time Box Styles */
+.time {
+    width: 100%;
+    height: 145px;
+    /* background-color: #e6b84c;  */
+
+    /* background-color: rgb(29, 31, 52); */
+    background-color: #222f3d;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 0px;
+}
+#timeDiv{
+    font-size: 20px;
+    color: white;
+    font-size: xx-large;
+}
+.max-temp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.min-temp{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+.speed{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+
